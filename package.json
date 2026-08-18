@@ -1,0 +1,20 @@
+{
+  "name": "parcel_base",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Majo Sandoval",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "parcel": "^2.16.4"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
